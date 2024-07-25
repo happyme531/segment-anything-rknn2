@@ -21,7 +21,7 @@ license: unknown
 
 提示：
 
-`{"type": "point", "data": [540, 512], "label": 0}`
+`{"type": "point", "data": [540, 512], "label": 1}`
 
 输出:
 
@@ -61,7 +61,7 @@ Input:
 
 Prompt:
 
-`{"type": "point", "data": [540, 512], "label": 0}`
+`{"type": "point", "data": [540, 512], "label": 1}`
 
 Output:
 

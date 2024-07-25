@@ -204,7 +204,7 @@ if __name__ == "__main__":
     image = cv2.imread("input.jpg")
     embedding = segmenter.encode(image)
     prompt = [
-        {"type": "point", "data": [540, 512], "label": 0},
+        {"type": "point", "data": [540, 512], "label": 1},
     ]
     masks = segmenter.predict_masks(embedding, prompt)
     print(masks.shape)
